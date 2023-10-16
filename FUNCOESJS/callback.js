@@ -1,4 +1,4 @@
-const fabricantes = ["Bmw", "Audi", "MercedesBenz"]
+const fabricantes = ["Bmw", "Audi", "Mercedes-Benz", "Jaguar"]
 
 function mostre(nome, indice){
     console.log(`${indice + 1}: ${nome}`)
@@ -13,9 +13,11 @@ SAIDA DE CODIGO:
 1: Bmw
 2: Audi
 3: MercedesBenz
+4: Jaguar
 
 Bmw
 Audi
 MercedesBenz
+Jaguar
 
 */
