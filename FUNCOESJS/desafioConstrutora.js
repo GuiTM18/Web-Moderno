@@ -1,22 +1,14 @@
-class Pessoa{
-    constructor(nome){
-        this.nome = nome
-    }
-    falar(){
-        console.log(`Meu nome é ${this.nome}`)
-    }
-}
+function Produto(marca, preco, ano){
+    this.marca = marca 
+    this.preco = preco
+    this.ano = ano
 
-const pessoa1 = new Pessoa("Guii")
-pessoa1.falar()
-
-
-function Pessoa2(){
-    let name = ""
-
-    this.getName = function(){
-        return console.log(name)
+    this.qualidade = function(x){
+        return  console.log(`O produto está ${x}`)
     }
 }
-const p1 = new Pessoa2
-console.log(p1.getName('fgdjs'))
+
+const prod1 = new Produto("Fiat", 50.000, 2014)
+console.log(prod1)
+ 
+prod1.qualidade("OK")
