@@ -30,3 +30,22 @@ console.log(pessoa.carros.civic.cor)
 
 pessoa.andar(20)
 
+const carro = {
+    marca: 'Ferrari',
+    placa: 'JS85FG',
+    ano: 2022,
+    condutores: [{
+        nome: 'Guilherme',
+        idade: 20,
+    }, {
+        nome: 'Pedro',
+        idade: 30,
+    } ],
+
+}
+
+console.log(carro)
+
+delete carro.placa
+
+console.log(carro)
