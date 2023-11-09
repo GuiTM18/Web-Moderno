@@ -11,7 +11,7 @@
 - [x] Funções (JavaScript)
 - [x] Objeto  (JavaScript)
 - [x] Array   (JavaScript)
-- [ ] NodeJS
+- [x] NodeJS
 - [ ] ESNext
 - [x] HTML
 - [x] CSS
