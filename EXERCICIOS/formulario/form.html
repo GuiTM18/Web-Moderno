@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>FORMULÁRIO</h1>
+    <form action="http://localhost:3003/usuarios" method="POST">
+        
+       EMAIL: <input type="text" name="Nome" class="nome"> 
+     SENHA:   <input type="password" name="senha" id="x"> 
+     <p>FALE SOBRE VOCE:</p>
+        <textarea name="area" cols="20" rows="7"></textarea>
+        
+        <div id="area">
+            <input type="radio" name="tipo" value="Estagio"> estagio
+            <input type="radio" name="tipo" value="Junior"> junior
+            <input type="radio" name="tipo" value="Pleno"> pleno
+        </div>
+        <div>
+            <input type="checkbox" name="test" id="on"> ativo
+        </div>
+        Seu estado:
+        <select name="estado" id="estado">
+            <option>Selecione</option>
+            <option value="bahia">Bahia</option>
+            <option value="recife">Recife</option>
+            <option value="pernambuco">Pernambuco</option>
+            
+        </select>
+     <!--
+            <select name="interesses" id="interesses" multiple>
+            <option value="Java">Java</option>
+            <option value="C">C</option>
+            <option value="JS">JavaScript</option>
+            <option value="Python">Python</option>
+        </select>
+
+     -->   
+
+        <button>Incluir</button>
+    </form>
+    
+    
+</body>
+</html>

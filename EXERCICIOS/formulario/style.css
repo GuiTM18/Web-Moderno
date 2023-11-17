@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(129, 127, 255);
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form{
+    text-align: center;
+    padding: 20px;
+    margin: 100px;
+    background-color: rgba(218, 233, 255, 0.681);
+    border-radius: 20px;
+}
+
+.nome #x{
+    display: block;
+    margin: 20px;
+}
+textarea{
+    
+    margin: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+div{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+button{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 10pt;
+    color: aliceblue;
+    font-weight: bold;
+    background-color: rgb(60, 221, 15);
+}
+
+#estado{
+    display: inline;
+    margin: auto;
+}
+#interesses{
+    display: inline;
+    margin: auto;
+}
