@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>FORMULÁRIO</h1>
-    <form action="http://localhost:3003/usuarios" method="POST">
+    <form method="POST">
         
        EMAIL: <input type="text" name="Nome" class="nome"> 
      SENHA:   <input type="password" name="senha" id="x"> 
@@ -31,7 +31,7 @@
             <option value="pernambuco">Pernambuco</option>
             
         </select>
-     <!--
+     
             <select name="interesses" id="interesses" multiple>
             <option value="Java">Java</option>
             <option value="C">C</option>
@@ -39,9 +39,10 @@
             <option value="Python">Python</option>
         </select>
 
-     -->   
+      
 
-        <button>Incluir</button>
+        <button formaction="http://localhost:3003/usuarios">Incluir</button>
+        <button formaction="http://localhost:3003/usuarios/1">Alterar</button>
     </form>
     
     
