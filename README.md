@@ -12,7 +12,7 @@
 - [x] Objeto  (JavaScript)
 - [x] Array   (JavaScript)
 - [x] NodeJS
-- [ ] ESNext
+- [x] ESNext
 - [x] HTML
 - [x] CSS
 - [ ] AJAX
